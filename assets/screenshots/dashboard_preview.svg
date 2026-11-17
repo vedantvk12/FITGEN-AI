@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="limeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF87"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121824"/>
+      <stop offset="100%" stop-color="#172030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <!-- Left Sidebar Panel -->
+  <rect x="0" y="0" width="260" height="800" fill="#0E131D" stroke="#1E293B" stroke-width="1"/>
+  
+  <!-- Sidebar Brand -->
+  <text x="24" y="45" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="1">FITGEN</text>
+  <rect x="120" y="28" width="32" height="20" rx="4" fill="#00FF87"/>
+  <text x="127" y="43" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#0B0E14">AI</text>
+  <text x="24" y="65" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Problem 55 • Roll 55</text>
+  <line x1="24" y1="80" x2="236" y2="80" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Sidebar Nav Items -->
+  <rect x="16" y="95" width="228" height="36" rx="6" fill="#172030" stroke="#00FF87" stroke-width="1"/>
+  <text x="32" y="118" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#00FF87">🏋️ Routine Planner</text>
+
+  <text x="32" y="155" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">📊 Weekly Analytics</text>
+  <text x="32" y="190" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">💡 AI Fitness Tips</text>
+  <text x="32" y="225" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">📂 Saved Routines</text>
+  <text x="32" y="260" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">🎓 Academic Info &amp; Viva</text>
+
+  <line x1="24" y1="285" x2="236" y2="285" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Ollama Engine Pill -->
+  <text x="24" y="310" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#64748B" letter-spacing="1">LLM ENGINE</text>
+  <rect x="24" y="325" width="130" height="26" rx="13" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.4)" stroke-width="1"/>
+  <circle cx="36" cy="338" r="4" fill="#00FF87"/>
+  <text x="46" y="342" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#00FF87">Ollama Online</text>
+
+  <text x="24" y="380" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Selected Model:</text>
+  <rect x="24" y="390" width="212" height="32" rx="6" fill="#121824" stroke="#334155" stroke-width="1"/>
+  <text x="36" y="411" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#FFFFFF">llama3.2:latest</text>
+
+  <!-- Academic Credits Box -->
+  <rect x="16" y="690" width="228" height="90" rx="8" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+  <text x="28" y="715" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Vedant Kirange</text>
+  <text x="28" y="733" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Roll No: <tspan fill="#00FF87" font-weight="700">55</tspan></text>
+  <text x="28" y="751" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">B.Tech CSE (AI &amp; Analytics)</text>
+  <text x="28" y="768" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#38BDF8">Problem Statement 55</text>
+
+  <!-- Main Content Area -->
+  <!-- Hero Card -->
+  <g transform="translate(290, 25)">
+    <rect width="875" height="110" rx="14" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="20" y="16" width="180" height="20" rx="10" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.3)"/>
+    <text x="32" y="30" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#00FF87" letter-spacing="1">AI-POWERED ROUTINE ENGINE</text>
+    <text x="20" y="62" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF">FITGEN AI <tspan fill="#00FF87" font-size="14" font-weight="600">v1.0.0</tspan></text>
+    <text x="20" y="82" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#94A3B8">Train Smarter. Move Better. Live Stronger.</text>
+    <rect x="670" y="18" width="185" height="26" rx="6" fill="rgba(56,189,248,0.1)" stroke="rgba(56,189,248,0.3)"/>
+    <text x="682" y="35" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#38BDF8">🎓 PS 55 • Vedant Kirange (55)</text>
+  </g>
+
+  <!-- 4 Executive Stat Tiles -->
+  <g transform="translate(290, 150)">
+    <!-- Tile 1 -->
+    <rect x="0" y="0" width="205" height="75" rx="10" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="10" fill="#94A3B8" letter-spacing="0.5">TRAINING DAYS</text>
+    <text x="16" y="52" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#00FF87">4 <tspan font-size="13" fill="#64748B">/ 7 Days</tspan></text>
+    <text x="16" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#00FF87">Active Stimulus</text>
+
+    <!-- Tile 2 -->
+    <rect x="223" y="0" width="205" height="75" rx="10" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="239" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="10" fill="#94A3B8" letter-spacing="0.5">RECOVERY DAYS</text>
+    <text x="239" y="52" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#F59E0B">3 <tspan font-size="13" fill="#64748B">/ 7 Days</tspan></text>
+    <text x="239" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#F59E0B">Tissue Repair</text>
+
+    <!-- Tile 3 -->
+    <rect x="446" y="0" width="205" height="75" rx="10" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="462" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="10" fill="#94A3B8" letter-spacing="0.5">DAILY BUDGET</text>
+    <text x="462" y="52" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#38BDF8">30 <tspan font-size="13" fill="#64748B">Mins</tspan></text>
+    <text x="462" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#38BDF8">Time Constraint</text>
+
+    <!-- Tile 4 -->
+    <rect x="670" y="0" width="205" height="75" rx="10" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="686" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="10" fill="#94A3B8" letter-spacing="0.5">TOTAL VOLUME</text>
+    <text x="686" y="52" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF">150 <tspan font-size="13" fill="#64748B">Mins</tspan></text>
+    <text x="686" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Weekly Load</text>
+  </g>
+
+  <!-- Action Bar -->
+  <g transform="translate(290, 240)">
+    <rect x="0" y="0" width="230" height="34" rx="6" fill="#00FF87"/>
+    <text x="24" y="22" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#0B0E14">📥 Download Executive PDF Plan</text>
+
+    <rect x="245" y="0" width="160" height="34" rx="6" fill="#172030" stroke="#334155" stroke-width="1"/>
+    <text x="270" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">🔄 Regenerate</text>
+
+    <rect x="420" y="0" width="160" height="34" rx="6" fill="#172030" stroke="#334155" stroke-width="1"/>
+    <text x="450" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">✏️ Modify</text>
+
+    <rect x="715" y="0" width="160" height="34" rx="6" fill="rgba(0,255,135,0.08)" stroke="rgba(0,255,135,0.3)"/>
+    <text x="740" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#00FF87">✅ Saved in SQLite</text>
+  </g>
+
+  <!-- 7-Day Tabs Navigation -->
+  <g transform="translate(290, 290)">
+    <text x="0" y="16" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Weekly Periodized Schedule:</text>
+    
+    <!-- Tab 1 Active -->
+    <rect x="0" y="26" width="115" height="30" rx="6" fill="#172030" stroke="#00FF87" stroke-width="1.5"/>
+    <text x="18" y="46" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#00FF87">Day 1 (Mon)</text>
+
+    <!-- Tab 2 -->
+    <rect x="125" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="143" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 2 (Tue)</text>
+
+    <!-- Tab 3 -->
+    <rect x="250" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="268" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 3 (Wed)</text>
+
+    <!-- Tab 4 -->
+    <rect x="375" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="393" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 4 (Thu)</text>
+
+    <!-- Tab 5 -->
+    <rect x="500" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="518" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 5 (Fri)</text>
+
+    <!-- Tab 6 -->
+    <rect x="625" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="643" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 6 (Sat)</text>
+
+    <!-- Tab 7 -->
+    <rect x="750" y="26" width="115" height="30" rx="6" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <text x="768" y="46" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Day 7 (Sun)</text>
+  </g>
+
+  <!-- Day Detail Box -->
+  <g transform="translate(290, 365)">
+    <!-- Day Header -->
+    <rect width="875" height="50" rx="8" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#00FF87" stroke-width="5"/>
+    <text x="16" y="22" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">DAY 1 • MONDAY</text>
+    <text x="16" y="40" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">Upper Body &amp; Core Foundation</text>
+    
+    <rect x="680" y="14" width="95" height="22" rx="4" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.4)"/>
+    <text x="692" y="29" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#00FF87">🏋️ TRAINING</text>
+    <rect x="785" y="14" width="75" height="22" rx="4" fill="#1E293B"/>
+    <text x="797" y="29" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">⏱️ 30 MIN</text>
+
+    <!-- Warm-up Banner -->
+    <rect x="0" y="60" width="875" height="42" rx="6" fill="rgba(56,189,248,0.06)" stroke="rgba(56,189,248,0.3)"/>
+    <line x1="0" y1="60" x2="0" y2="102" stroke="#38BDF8" stroke-width="4"/>
+    <text x="16" y="78" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#38BDF8">🔥 DYNAMIC WARM-UP (5 Mins):</text>
+    <text x="180" y="78" font-family="system-ui, sans-serif" font-size="11" fill="#E2E8F0">Arm Circles • Band Dislocates • Torso Twists</text>
+    <text x="16" y="94" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Elevate body temperature and lubricate rotator cuff joint capsules.</text>
+
+    <!-- Exercise 1 -->
+    <g transform="translate(0, 112)">
+      <rect width="875" height="90" rx="8" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#FFFFFF"><tspan fill="#00FF87">1.</tspan> Dumbbell Floor Press</text>
+      
+      <rect x="360" y="12" width="130" height="20" rx="4" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.3)"/>
+      <text x="370" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#38BDF8">🛡️ Pectorals, Triceps</text>
+
+      <rect x="500" y="12" width="115" height="20" rx="4" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.3)"/>
+      <text x="512" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#00FF87">3 Sets × 10-12 Reps</text>
+
+      <rect x="625" y="12" width="95" height="20" rx="4" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)"/>
+      <text x="637" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#FBBF24">⏱️ 60s Rest</text>
+
+      <text x="16" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#CBD5E1">Execution: Lower with controlled 3-second descent, touch elbows lightly to floor, press upward explosively.</text>
+      <line x1="16" y1="60" x2="859" y2="60" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#38BDF8" font-weight="700">💡 Form Cue:</tspan> Keep elbows at 45-degree angle to protect shoulder capsule.</text>
+      <text x="460" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#F59E0B" font-weight="700">⚠️ Modification:</tspan> Reduce dumbbell weight if lower back arches.</text>
+    </g>
+
+    <!-- Exercise 2 -->
+    <g transform="translate(0, 212)">
+      <rect width="875" height="90" rx="8" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#FFFFFF"><tspan fill="#00FF87">2.</tspan> Bent-Over Dumbbell Row</text>
+      
+      <rect x="360" y="12" width="130" height="20" rx="4" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.3)"/>
+      <text x="370" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#38BDF8">🦅 Lats, Rhomboids</text>
+
+      <rect x="500" y="12" width="115" height="20" rx="4" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.3)"/>
+      <text x="512" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#00FF87">3 Sets × 10-12 Reps</text>
+
+      <rect x="625" y="12" width="95" height="20" rx="4" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)"/>
+      <text x="637" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#FBBF24">⏱️ 60s Rest</text>
+
+      <text x="16" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#CBD5E1">Execution: Hinge at hips with flat spine, pull weights toward hip crease, squeezing shoulder blades together.</text>
+      <line x1="16" y1="60" x2="859" y2="60" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#38BDF8" font-weight="700">💡 Form Cue:</tspan> Drive movement with elbows, not biceps.</text>
+      <text x="460" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#F59E0B" font-weight="700">⚠️ Modification:</tspan> Rest one hand on a bench for chest-supported row if needed.</text>
+    </g>
+
+    <!-- Exercise 3 -->
+    <g transform="translate(0, 312)">
+      <rect width="875" height="90" rx="8" fill="#121824" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#FFFFFF"><tspan fill="#00FF87">3.</tspan> Plank with Shoulder Taps</text>
+      
+      <rect x="360" y="12" width="130" height="20" rx="4" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.3)"/>
+      <text x="370" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#38BDF8">🎯 Core &amp; Shoulders</text>
+
+      <rect x="500" y="12" width="115" height="20" rx="4" fill="rgba(0,255,135,0.12)" stroke="rgba(0,255,135,0.3)"/>
+      <text x="512" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#00FF87">3 Sets × 30-45 Sec</text>
+
+      <rect x="625" y="12" width="95" height="20" rx="4" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)"/>
+      <text x="637" y="26" font-family="system-ui, sans-serif" font-weight="800" font-size="9" fill="#FBBF24">⏱️ 45s Rest</text>
+
+      <text x="16" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#CBD5E1">Execution: Hold push-up plank, tap opposite shoulder without allowing hips to tilt or rotate.</text>
+      <line x1="16" y1="60" x2="859" y2="60" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#38BDF8" font-weight="700">💡 Form Cue:</tspan> Widen feet stance for greater pelvic stabilization.</text>
+      <text x="460" y="76" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8"><tspan fill="#F59E0B" font-weight="700">⚠️ Modification:</tspan> Drop to knees if lumbar spine sags.</text>
+    </g>
+  </g>
+</svg>

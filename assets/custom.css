@@ -1,0 +1,288 @@
+/* FITGEN AI - Premium Fitness-Tech Design System */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --bg-dark: #0B0E14;
+  --bg-card: #121824;
+  --bg-card-hover: #172030;
+  --primary-lime: #00FF87;
+  --primary-hover: #00E676;
+  --cyan-accent: #38BDF8;
+  --amber-warning: #F59E0B;
+  --text-primary: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-active: rgba(0, 255, 135, 0.4);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+/* Global Font & Body Reset */
+html, body, [class*="css"] {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: var(--text-primary);
+}
+
+/* Streamlit Main App Container */
+.main .block-container {
+  padding-top: 1.5rem !important;
+  padding-bottom: 3rem !important;
+  max-width: 1250px !important;
+}
+
+/* Header & Banner Cards */
+.hero-card {
+  background: linear-gradient(135deg, rgba(18, 24, 36, 0.95) 0%, rgba(15, 23, 42, 0.9) 100%);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: radial-gradient(circle at 100% 0%, rgba(0, 255, 135, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 0.25rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(0, 255, 135, 0.12);
+  color: var(--primary-lime);
+  border: 1px solid rgba(0, 255, 135, 0.3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Academic Pill in Top Bar */
+.academic-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  color: var(--cyan-accent);
+  font-weight: 600;
+}
+
+/* Metric / Stat Tiles */
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.25rem;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.stat-card:hover {
+  border-color: var(--border-active);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -6px rgba(0, 255, 135, 0.15);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.stat-sub {
+  font-size: 0.75rem;
+  color: var(--primary-lime);
+  margin-top: 0.2rem;
+}
+
+/* Day Workout Card */
+.day-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease;
+}
+
+.day-card.training {
+  border-left: 4px solid var(--primary-lime);
+}
+
+.day-card.active_recovery {
+  border-left: 4px solid var(--amber-warning);
+}
+
+.day-card.rest {
+  border-left: 4px solid var(--text-muted);
+}
+
+/* Exercise Row / Card */
+.exercise-card {
+  background: rgba(11, 14, 20, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.65rem;
+  transition: background 0.2s ease;
+}
+
+.exercise-card:hover {
+  background: rgba(23, 32, 48, 0.8);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.exercise-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badge-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-lime {
+  background: rgba(0, 255, 135, 0.12);
+  color: var(--primary-lime);
+  border: 1px solid rgba(0, 255, 135, 0.3);
+}
+
+.badge-cyan {
+  background: rgba(56, 189, 248, 0.12);
+  color: var(--cyan-accent);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.badge-amber {
+  background: rgba(245, 158, 11, 0.15);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* Ollama Status Pill */
+.ollama-pill-online {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(0, 255, 135, 0.1);
+  border: 1px solid rgba(0, 255, 135, 0.3);
+  color: var(--primary-lime);
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ollama-pill-offline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #F87171;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Sidebar Custom Styling */
+section[data-testid="stSidebar"] {
+  background-color: #0E131D !important;
+  border-right: 1px solid var(--border-subtle);
+}
+
+/* Streamlit Button Styling */
+div.stButton > button {
+  border-radius: var(--radius-sm) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid var(--border-subtle) !important;
+}
+
+div.stButton > button:hover {
+  border-color: var(--primary-lime) !important;
+  color: var(--primary-lime) !important;
+  box-shadow: 0 4px 12px rgba(0, 255, 135, 0.2) !important;
+}
+
+/* Primary Button Styling */
+div.stButton > button[kind="primary"] {
+  background: linear-gradient(135deg, #00FF87 0%, #00E676 100%) !important;
+  color: #0B0E14 !important;
+  border: none !important;
+  font-weight: 800 !important;
+  box-shadow: 0 4px 14px rgba(0, 255, 135, 0.35) !important;
+}
+
+div.stButton > button[kind="primary"]:hover {
+  background: linear-gradient(135deg, #00FF87 0%, #38BDF8 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 20px rgba(0, 255, 135, 0.5) !important;
+}
+
+/* Clean Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0E14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
